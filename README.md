@@ -157,7 +157,7 @@ It makes things easier if you add your user to the docker group
 
 ```
 
-### Docker for windows
+### Docker for Windows
 ```
  https://docs.docker.com/desktop/setup/install/windows-install/
 
