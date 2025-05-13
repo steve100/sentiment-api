@@ -116,7 +116,7 @@ or same thing, more information
 https://gitforwindows.org/
 ```
 
-## Git Usage
+### Git Usage
 - Set the identity in the repo for push
 ```
   git config --global user.email youremail@yourdomain
@@ -129,7 +129,8 @@ https://gitforwindows.org/
   git commit -m "your commit"
   #you will now need a token because  userid/password depreciated
   git push
-     
+```
+    
 - tokens
 ```
 https://git-scm.com/downloads/win
@@ -144,5 +145,24 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
 ```
 vim install-gh.sh ; bash install-gh.sh
 gh auth login
+```
+
+## Docker
+### Docker for Linux
+```
+Used the convience script
+ https://docs.docker.com/engine/install/ubuntu/
+
+It makes things easier if you add your user to the docker group
+
+```
+
+### Docker for windows
+```
+ https://docs.docker.com/desktop/setup/install/windows-install/
+
+ Video Installing  Docker Desktop and optonal  with WSL2
+ https://www.youtube.com/watch?v=ZyBBv1JmnWQ
+
 ```
 
