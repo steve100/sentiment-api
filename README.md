@@ -57,15 +57,15 @@ git clone https://github.com/steve100/sentiment-api.git
 ```
 cd sentiment-api
 bash run.sh
-``
+```
 
-###Test the client
+### Test the client
 ```
 cd tests-tools
 bash curl-client-sentiment_api.sh
 ```
 
-###Test the Python client and write your application
+### Test the Python client and write your application
 
 Chose a location for the Python Virtual Environment
 HOW To Link: https://www.geeksforgeeks.org/python-virtual-environment/
@@ -89,3 +89,60 @@ python3 python-client-sentiment_package.py
 #when done
 deactivate 
 ```
+
+## How to Install GIT
+### General Git
+```
+https://git-scm.com/
+https://git-scm.com/doc
+```
+### Linux Ubuntu Git
+- Information 
+```
+Use your Distro
+sudo apt upgrade -y  ; sudo   apt install git -y
+
+or you can get the latest
+https://git-scm.com/downloads/linux
+```
+
+
+### Windows Git
+- Information
+```
+https://git-scm.com/downloads/win
+
+or same thing, more information
+https://gitforwindows.org/
+```
+
+## Git Usage
+- Set the identity in the repo for push
+```
+  git config --global user.email youremail@yourdomain
+  git config --global user.name  yourname
+```
+- Cheat sheet
+```
+  git status
+  git add . 
+  git commit -m "your commit"
+  #you will now need a token because  userid/password depreciated
+  git push
+     
+- tokens
+```
+https://git-scm.com/downloads/win
+```
+
+- Markdown
+```
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github
+```
+
+- Authentication
+```
+vim install-gh.sh ; bash install-gh.sh
+gh auth login
+```
+
