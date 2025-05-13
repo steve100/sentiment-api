@@ -21,6 +21,17 @@ example:
 - Packaged as a Python module with CLI entry point
 - Easy to install and extend
 
+## Server and client
+```
+Server:
+Docker image:    sentiment-api
+Docker container sentiment-container
+
+Client:
+Sample curl program:    curl-client-sentiment_api.sh
+Sample python program:  python-client-sentiment_package.py
+```
+
 ## Installation
 ### Tested on windows and Linux
 Make sure you have  git installed.
