@@ -1,0 +1,14 @@
+[Unit]
+Description=Gunicorn instance to serve Sentiment Flask App
+After=network.target
+
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/sentiment-app
+Environment="PATH=/home/ubuntu/sentiment-app/venv/bin"
+ExecStart=/home/ubuntu/sentiment-app/venv/bin/gunicorn -c gunicorn_config.py app:app
+
+[Install]
+WantedBy=multi-user.target
+

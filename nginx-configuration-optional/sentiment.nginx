@@ -1,0 +1,18 @@
+#adjust as necessary
+server {
+    listen 80;
+    server_name 192.168.1.252;  # or use server's IP
+
+    location / {
+        proxy_pass http://127.0.0.1:8000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+       location /predict {
+        proxy_pass http://127.0.0.1:8000/predict;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+    }
+
+}
+
