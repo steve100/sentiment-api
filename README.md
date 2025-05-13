@@ -23,21 +23,12 @@ example:
 
 ## Server and client
 
-```
-Server:
-```
-
-|-----------------|----------------------|
-| Docker image     | sentiment-api |
-| Docker container | sentiment-container |
-
-```
-Client:
-```
-
-|-----------------|----------------------|
-| Sample curl program   | curl-client-sentiment_api.sh       |
-| Sample python program | python-client-sentiment_package.py |
+| Function                  | Name                 |
+|---------------------------|----------------------|
+| 'Docker image'            | sentiment-api        |
+| 'Docker container server' | sentiment-container  |
+| 'Sample curl client'      | curl-client-sentiment_api.sh       |
+| 'Sample python client'    | python-client-sentiment_package.py |
 
 ## Installation
 ### Tested on windows and Linux
