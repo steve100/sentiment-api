@@ -47,6 +47,11 @@ git clone https://github.com/steve100/sentiment-api.git
 | `requirements.txt`  | Python modules used                                               |
 | `run.sh`            | Starts and runs the Docker container that runs the web service    |
 
+- Container Save
+  docker save >  sentiment-api.tar
+
+- Container Load
+  docker load -i sentiment-api.tar
 
 ### tests-tools
 - cd tests-tools
